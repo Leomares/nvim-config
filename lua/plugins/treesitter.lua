@@ -12,8 +12,9 @@ return {
       highlight = { enable = true },
       indent = { enable = true },
     },
-    config = function(_, opts)
-      require("nvim-treesitter.configs").setup(opts)
-    end,
+    -- no longer needed with lazy.nvim's built-in support for plugin options
+--    config = function(_, opts)
+--      require("nvim-treesitter.configs").setup(opts)
+--    end,
   },
 }

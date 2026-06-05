@@ -3,6 +3,15 @@
 -- r_language_server is intentionally omitted from mason/lspconfig to avoid
 -- running two R completion sources simultaneously (see R.nvim README).
 -- Looks for radian in .venv/bin/radian first, then system radian, then plain R.
+
+-- Relevant commands
+-- \rf open REPL
+-- \rq quit REPL
+-- \l  send line to REPL
+-- \ss send visual selection to REPL
+-- \pp send paragraph to REPL
+-- \aa send entire buffer to REPL
+
 return {
   {
     "R-nvim/R.nvim",
