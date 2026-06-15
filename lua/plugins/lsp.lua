@@ -13,6 +13,7 @@ return {
     opts = {
       ensure_installed = {
         "ruff",
+        "pyright",
         "lua_ls",
       },
       automatic_installation = true,
@@ -71,6 +72,7 @@ return {
 
       local servers = {
         ruff = {},
+        pyright = {},
         lua_ls = {
           settings = {
             Lua = {
